@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title></title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="./styles/output.css" type="text/css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=DM+Serif+Display|Karla&display=swap" rel="stylesheet">
+</head>
+<style>
+html, body {
+   max-width: 100%;
+   overflow-x: hidden;
+}
+</style>
+
+<body class="m-0 p-0 font-body text-lg">
+
+    <header class="flex">
+        <nav class="w-full sm:flex flex-row sm:mt-5 sm:mb-4">
+            <div class="m-4 flex flex-row justify-end items-center sm:m-0">
+            <img src="./images/logo.svg" alt="Insure"
+                aria-label="Insure" class="mr-32 sm:mr-0 sm:ml-65">
+                <img src="./images/icon-hamburger.svg" alt="mobile nav" aria-label="mobile navigation" class="sm:hidden" id="hamburg">
+                <img src="./images/icon-close.svg" alt="mobile nav" aria-label="mobile navigation close" class="hidden" id="close">
+            </div>
+            <div id="mobileNav" class="hidden items-center mt-6 bg-darkViolet-200 text-lightGray-100 w-full h-64 flex flex-col justify-center sm:mt-0 sm:flex sm:flex-row sm:bg-white sm:text-grayishViolet-100 sm:mr-24 sm:h-auto sm:justify-end">
+                <a href="" aria-label="HOW WE WORK" class="mt-2 sm:mt-0 sm:mr-6 hover:text-darkViolet-200 hover:font-semibold">HOW WE WORK</a>
+                <a href="" aria-label="BLOG" class="mt-2 sm:mt-0 sm:mr-6 hover:font-semibold hover:text-darkViolet-200">BLOG</a>
+                <a href="" aria-label="ACCOUNT" class="mt-2 sm:mt-0 sm:mr-6 hover:font-semibold hover:text-darkViolet-200">ACCOUNT</a>
+                <button class="flex flex-col justify-center items-center sm:border-1 sm:text-darkViolet-200 sm:w-32 sm:h-10 sm:font-semibold sm:m-1 sm:border-darkViolet-200 sm:flex-row hover:bg-darkViolet-200 hover:text-lightGray-100 hover:font-medium hover:text-base">
+                    <a href="" aria-label="VIEW PLANS" class="mt-3 sm:mt-0 ">VIEW PLANS</a>
+                </button>
+            </div>
+        </nav>
+    </header>
+    <section class="pb-10 bg-darkViolet-100 flex flex-col justify-center items-center text-center sm:flex-row-reverse sm:text-left text-lightGray-100 sm:pb-0 sm:h-75 sm:pt-22">
+        <!-- top line -->
+        <span class="border border-grayishViolet-200 order-5 w-40 absolute inset-x-0 mt-70 ml-8 sm:ml-32"></span>
+        <div class="order-2 sm:top-1 sm:mr-8 sm:p-5 sm:w-2/5 sm:m-0 sm:flex sm:flex-col ">
+        <h1 class="text-4xl px-6 font-heading pt-3 sm:order-1 sm:text-6xl">Humanizing your insurance.</h1>
+        <img src="./images/bg-pattern-intro-left-mobile.svg" aria-label="background" class="sm:hidden w-40 absolute inset-y-0 mt-70" id="bgLeft">
+        <img src="./images/bg-pattern-intro-right-mobile.svg" aria-label="background" class="sm:hidden w-24 absolute right-0 mt-32">
+        <p class="order-3 p-4 sm:leading-normal">Get your life insurance coverage easier and faster. 
+            We blend our expertise and technology to help you find 
+            the plan that's right for you. Ensure you and your loved ones are protected.</p>
+            <button class="order-4 border border-white w-40 h-12 mt-1 sm:mt-2 sm:ml-5 hover:bg-white hover:text-darkViolet-100">
+                <a href="" aria-label="VIEW PLANS">VIEW PLANS</a>
+            </button>
+        </div>
+            <div>
+                <img src="./images/image-intro-desktop.jpg" alt="Family Walking" aria-label="Family Waling" class="order-1 sm:overflow-visible sm:mt-16 sm:order-3">
+            </div>
+    </section>
+    <section class="flex flex-col justify-center items-center text-center pt-16 sm:justify-start sm:items-start sm:text-left sm:pt-48 sm:pb-22">
+        <!-- top line -->
+        <span></span>
+        <h1 class="font-heading text-4xl text-darkViolet-200 sm:text-6xl sm:text-left sm:ml-32 ">We're different</h1>
+        <div class="sm:flex sm:flex-row sm:w-full sm:justify-start sm:ml-32 sm:mt-6">
+        <article class="flex justify-center items-center flex-col my-6 sm:w-1/4 sm:justify-start sm:items-start ">
+            <img src="./images/icon-snappy-process.svg" alt="Snappy Process" aria-label="Snappy Process">
+            <h2 class="font-heading text-3xl text-darkViolet-200 mt-3 sm:ml-3">Snappy Process</h2>
+            <p class="text-grayishViolet-100 px-3 pt-1 sm:pr-16">Our application process can be completed in minutes, not hours.
+                Don't get stuck filling in tedious forms.
+            </p>
+        </article>
+        <article class="flex justify-center items-center flex-col my-6 sm:w-1/4 sm:justify-start sm:items-start ">
+            <img src="./images/icon-affordable-prices.svg" alt="Affordable Prices" aria-label="Affordable Prices">
+            <h2 class="font-heading text-3xl text-darkViolet-200 mt-3 sm:ml-3">Affordable Prices</h2>
+            <p class="text-grayishViolet-100 px-3 pt-1 sm:pr-16">We don't want you worrying about high monthly costs. Our prices may be low, but 
+                we still offer the best coverage possible.
+            </p>
+        </article>
+        <article class="flex justify-center items-center flex-col my-6 pb-8 sm:w-1/4 sm:justify-start sm:items-start ">
+            <img src="./images/icon-people-first.svg" alt="People First" aria-label="People First">
+            <h2 class="font-heading text-3xl text-darkViolet-200 mt-3 sm:ml-3">People First</h2>
+            <p class="text-grayishViolet-100 px-3 pt-1 sm:pr-16">Our application process can be completed in minutes, not hours.
+                Don't get stuck filling in tedious forms.
+            </p>
+        </article>
+        </div>
+    </section>
+    <section class="text-lightGray-100 text-center flex flex-col justify-center items-center bg-darkViolet-100 py-10 m-auto w-11/12 sm:flex-row sm:justify-between">
+        <img src="./images/bg-pattern-how-we-work-mobile.svg" aria-label="background" class="overflow-hidden w-40 h-64 absolute right-0 mt-0 mr-4 sm:hidden">
+        <img src="./images/bg-pattern-how-we-work-desktop.svg" aria-label="background" class="overflow-hidden hidden z-0 sm:flex sm:absolute sm:right-0 sm:w-70 sm:h-52 sm:mr-16">
+        <h1 class="font-heading text-4xl leading-none sm:text-5xl sm:w-1/2 sm:pr-32 sm:text-left sm:leading-snug sm:ml-16">Find out more about how we work</h1>
+        <button class="border border-lightGray-100 mt-4 w-40 h-12 sm:mr-32 sm:z-50 hover:bg-white hover:text-darkViolet-100">
+            <a href="" aria-label="How We Work">HOW WE WORK</a>
+        </button>
+    </section>
+    <footer class="bg-lightGray-100 mt-24 pb-8 flex flex-col justify-center items-center sm:pt-3">
+        <div class="flex flex-col justify-center items-center mb-8 pb-4 w-3/4 sm:flex-row sm:justify-between sm:w-2/3 sm:pb-8" style="border-bottom: 2px solid lightgray;">
+            <img src="./images/logo.svg" alt="Insure"
+            aria-label="Insure">
+            <div class="flex flex-row mt-5 sm:mt-4">
+                <img src="./images/icon-twitter.svg" alt="Twitter"
+                aria-label="Twitter" class="mr-3">
+                <img src="./images/icon-pinterest.svg" alt="Pinterest"
+                aria-label="Pinterest" class="mr-3">
+                <img src="./images/icon-facebook.svg" alt="Facebook"
+                aria-label="Facebook" class="mr-3">
+                <img src="./images/icon-instagram.svg" alt="Instagram"
+                aria-label="Instagram" class="mr-2">
+            </div>
+        </div>
+        <div class="sm:flex sm:flex-row sm:justify-between sm:w-2/3">
+        <section class="flex flex-col justify-center items-center w-full pt-4 sm:w-1/4 sm:p-0 sm:justify-start sm:items-start">
+            <p class="text-grayishViolet-100 pb-3">OUR COMPANY</p>
+            <a href="" aria-label="HOW WE WORK" class="text-darkViolet-200 text-base hover:underline">HOW WE WORK</a>
+            <a href="" aria-label="WHY INSURE?" class="text-darkViolet-200 text-base hover:underline">WHY INSURE?</a>
+            <a href="" aria-label="VIEW PLANS" class="text-darkViolet-200 text-base hover:underline">VIEW PLANS</a>
+            <a href="" aria-label="REVIEWS" class="text-darkViolet-200 text-base hover:underline">REVIEWS</a>
+        </section>
+        <section class="flex flex-col justify-center items-center w-full sm:w-1/4 sm:justify-start sm:items-start">
+            <p class="text-grayishViolet-100 pb-3 pt-6 sm:pt-0 ">HELP ME</p>
+            <a href="" aria-label="FAQ" class="text-darkViolet-200 text-base hover:underline">FAQ</a>
+            <a href="" aria-label="TERMS OF USE" class="text-darkViolet-200 text-base hover:underline">TERMS OF USE</a>
+            <a href="" aria-label="PRIVACY POLICY" class="text-darkViolet-200 text-base hover:underline">PRIVACY POLICY</a>
+            <a href="" aria-label="COOKIES" class="text-darkViolet-200 text-base hover:underline">COOKIES</a>
+        </section>
+        <section class="flex flex-col justify-center items-center w-full sm:w-1/4 sm:justify-start sm:items-start">
+            <p class="text-grayishViolet-100 pb-3 pt-6 sm:pt-0">CONTACT</p>
+            <a href="" aria-label="SALES" class="text-darkViolet-200 text-base hover:underline">SALES</a>
+            <a href="" aria-label="SUPPORT" class="text-darkViolet-200 text-base hover:underline">SUPPORT</a>
+            <a href="" aria-label="LIVE CHAT" class="text-darkViolet-200 text-base hover:underline">LIVE CHAT</a>
+        </section>
+        <section class="flex flex-col justify-center items-center w-full sm:w-1/4 sm:justify-start sm:items-start">
+            <p class="text-grayishViolet-100 pb-3 pt-6 sm:pt-0">OTHERS</p>
+            <a href="" aria-label="CAREERS" class="text-darkViolet-200 text-base hover:underline">CAREERS</a>
+            <a href="" aria-label="PRESS" class="text-darkViolet-200 text-base hover:underline">PRESS</a>
+            <a href="" aria-label="LICENSES" class="text-darkViolet-200 text-base hover:underline">LICENSES</a>
+        </section>
+        </div>
+    </footer>
+    <script>
+        const mobileNavOpen = document.getElementById('hamburg');
+        const mobileNavClose = document.getElementById('close');
+        const mobileNav = document.getElementById('mobileNav');
+        const bgLeft = document.getElementById('bgLeft');
+
+        function navOpen() {
+            if (mobileNavClose.classList.contains('hidden')) {
+                mobileNavClose.classList.remove('hidden');
+                mobileNavClose.style.display === 'block';
+                mobileNav.classList.remove('hidden');
+                mobileNav.style.display === 'flex';
+                mobileNavOpen.classList.add("hidden");
+                bgLeft.classList.remove('mt-70');
+                bgLeft.style.marginTop = '712px';
+            } else {
+                mobileNavClose.style.display === 'none';
+                mobileNav.style.display === 'none';
+                mobileNavClose.classList.add('hidden');
+                mobileNav.classList.add('hidden');
+                bgLeft.classList.add('mt-70');
+            }
+        }
+
+        function navClose() {
+            if (mobileNavOpen.classList.contains('hidden')) {
+                mobileNavOpen.classList.remove('hidden');
+                mobileNavOpen.style.display === 'block';
+                mobileNav.classList.add('hidden');
+                bgLeft.classList.add('mt-70');
+                bgLeft.style.marginTop = '28rem';
+                mobileNavClose.classList.add('hidden');
+            } else {
+                mobileNavClose.classList.remove('hidden');
+                mobileNavClose.style.display === 'block';
+                mobileNav.classList.remove('hidden');
+                mobileNav.style.display === 'flex';
+                mobileNavOpen.classList.add("hidden");
+                bgLeft.classList.remove('mt-70');
+                bgLeft.style.marginTop = '712px';
+            }
+        }
+
+        mobileNavOpen.addEventListener('click', navOpen);
+        mobileNavClose.addEventListener('click', navClose);
+    </script>
+</body>
+</html>
